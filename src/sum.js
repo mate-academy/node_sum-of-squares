@@ -14,7 +14,6 @@
  * @return {number}
  */
 function sum(a, b) {
-  // write code here
   return a + b;
 }
 
