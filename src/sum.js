@@ -1,5 +1,5 @@
 'use strict';
 
-exports function sum(x, y) {
+export function sum(x, y) {
 	return x + y;
 };
