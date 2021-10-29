@@ -3,6 +3,6 @@
 const { square } = require('./square');
 const { sum } = require('./sum');
 
-export function sumOfSquares(x, y) {
+module.exports function sumOfSquares(x, y) {
 	return sum(squere(x), squere(y));
 };

@@ -1,5 +1,5 @@
 'use strict';
 
-export function sum(x) {
+module.exports function sum(x) {
 	return x * x;
 };
