@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports function sum(x, y) {
-	return x + y;
+const sum = function sum(x, y) {
+  return x + y;
 };
+
+module.exports.sum = sum;
