@@ -24,5 +24,14 @@
   },
   "mateAcademy": {
     "projectType": "javascript"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegHlukh/node_sum-of-squares.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OlegHlukh/node_sum-of-squares/issues"
+  },
+  "homepage": "https://github.com/OlegHlukh/node_sum-of-squares#readme"
 }
