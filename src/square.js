@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports.square = function(x, y) {
+module.exports.square = function(x) {
   return x ** 2;
 };
