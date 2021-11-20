@@ -1,6 +1,6 @@
 'use strict';
 
-function square(a, b) {
+function square(a) {
   return a ** 2;
 }
 
