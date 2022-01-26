@@ -4,8 +4,8 @@ const { sum } = require('./sum');
 const { square } = require('./square');
 
 exports.sumOfSquares = (x, y) => {
-  const firstSquer = square(x);
-  const secondSquer = square(y);
+  const firstSquere = square(x);
+  const secondSquere = square(y);
 
-  return sum(firstSquer, secondSquer);
+  return sum(firstSquere, secondSquere);
 };
