@@ -3,8 +3,8 @@
 const { sum } = require('./sum');
 const { square } = require('./square');
 
-function sumOfSquare() {
+function sumOfSquares() {
   return sum(square(x) + square(y));
 }
 
-module.exports = { sumOfSquare}
+module.exports = { sumOfSquares }
