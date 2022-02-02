@@ -1,7 +1,7 @@
 'use strict';
 
-function square(a) {
-  return a * a;
+function square(x) {
+  return x * x;
 }
 
 module.exports = { square }
