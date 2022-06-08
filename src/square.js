@@ -1,7 +1,7 @@
 'use strict';
 
 function square(x) {
-  return x**2;
+  return x ** 2;
 }
 
-module.exports.square = square;
+module.exports = { square };

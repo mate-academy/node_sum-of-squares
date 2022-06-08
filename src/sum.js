@@ -4,4 +4,4 @@ function sum(x, y) {
   return x + y;
 }
 
-module.exports.sum = sum;
+module.exports = { sum };
