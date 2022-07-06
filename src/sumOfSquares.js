@@ -6,9 +6,8 @@ const { square } = require('./square');
 function sumOfSquares(x, y) {
   const a = square(x);
   const b = square(y);
-  const result = sum(a, b);
 
-  return result;
+  return sum(a, b);
 };
 
 module.exports.sumOfSquares = sumOfSquares;
