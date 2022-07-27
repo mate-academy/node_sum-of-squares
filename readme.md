@@ -7,4 +7,4 @@
   - `function square(x)`
   - `function sumOfSquares(x, y)` using `sum` and `square`
 
-Each module will be tested separatelly
+Each module will be tested separately
