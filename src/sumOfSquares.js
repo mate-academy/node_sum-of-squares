@@ -3,10 +3,9 @@
 const { square } = require('./square');
 const { sum } = require('./sum');
 
-const sumOfSquares = (x, y) => {
-  const squareX = square(x);
-  const squareY = square(y);
-  const result = sum(squareY, squareX);
+const sumOfSquares = (...params) => {
+  const squares = params.map(param => square(param));
+  const result = sum(squares[0], squares[1]);
 
   return result;
 };

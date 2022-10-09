@@ -1,7 +1,7 @@
 'use strict';
 
 const square = (x) => {
-  return x * x;
+  return x ** 2;
 };
 
 module.exports.square = square;
