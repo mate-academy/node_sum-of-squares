@@ -1,5 +1,6 @@
 {
   "name": "node_sum-of-squares",
+  "types": "module",
   "version": "1.0.0",
   "description": "Sum of squares",
   "main": "src/sumOfSquares.js",
