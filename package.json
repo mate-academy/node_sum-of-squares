@@ -1,4 +1,5 @@
 {
+  "type": "commonjs",
   "name": "node_sum-of-squares",
   "version": "1.0.0",
   "description": "Sum of squares",
