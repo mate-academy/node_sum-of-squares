@@ -2,9 +2,9 @@
 
 /* global require, describe, test, expect */
 
-const { square } = require('./square');
-const { sum } = require('./sum');
-const { sumOfSquares } = require('./sumOfSquares');
+const square = require('./square.js');
+const sum = require('./sum.js');
+const sumOfSquares = require('./sumOfSquares.js');
 
 describe('sum', () => {
   test('should return a sum of positive numbers', () => {
