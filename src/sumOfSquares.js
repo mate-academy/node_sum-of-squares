@@ -1,4 +1,5 @@
 'use strict';
+
 const { sum } = require('./sum');
 const { square } = require('./square');
 
