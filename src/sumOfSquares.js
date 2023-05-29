@@ -1,7 +1,7 @@
 'use strict';
 
-const sum = require('./sum');
-const square = require('./square');
+const { sum } = require('./sum');
+const { square } = require('./square');
 
 function sumOfSquares(x, y) {
   const squareX = square(x);
@@ -10,4 +10,4 @@ function sumOfSquares(x, y) {
   return sum(squareX, squareY);
 }
 
-module.exports = sumOfSquares;
+module.exports = { sumOfSquares };
